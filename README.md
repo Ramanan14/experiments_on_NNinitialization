@@ -1,1 +1,2 @@
 # experiments_on_NNinitialization
+We tried training a 3 layer neural network with first initialising all parameters as zeros, and then initialising the parameters with large random values, then using the standard He initialisation. The zeros initialisation had all the paramters constant during training as the gradients were zero always, the large random values slows down the optimization algorithm and the He initialization worked the best.
